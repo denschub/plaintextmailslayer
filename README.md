@@ -33,7 +33,7 @@ to find the keys.
 
 In addition, you have to add all recipients of encrypted mails to the config
 file. Addresses not listed in the config file will not get encrypted mails,
-regardless if there is a key availalbe or not.
+regardless if there is a key available or not.
 
 Usage
 -----
@@ -43,6 +43,6 @@ To start, run
     foreman start
 
 and the application will spawn an SMTP server listening at localhost:2525. Set
-up the applications sending mails to send mails to localhost:2525.
-PlainTextMailSlayer will take care of all emails that are coming in, so make
+up the applications sending unencrypted mails to send mails to localhost:2525.
+PlainTextMailSlayer will take care of all mails that are coming in, so make
 sure it is not accessible from outside, there is no authentication enabled.
