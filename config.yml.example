@@ -1,0 +1,11 @@
+smtp:
+  host: mail.example.com
+  port: 587
+  domain: exmaple.com
+  username: mail@example.com
+  password: supersecretpassword
+encrypted_mails:
+  subject_overwrite: Secret message
+  recipients:
+    - bar@example.org
+    - foo@example.com
